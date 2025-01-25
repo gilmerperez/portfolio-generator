@@ -18,7 +18,7 @@ The Portfolio Generator is a command-line tool designed to help users create a p
 
 ## Technologies Used
 
-This appliation needs the following tools and technologies to operate:
+This application needs the following tools and technologies to operate:
 
 * `fs` for writing to the file system
 
