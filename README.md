@@ -30,6 +30,6 @@ This application needs the following tools and technologies to operate:
 
 ## Additional Resources
 
-* Learn more about how to use `inquirer` for collecting user input: [Inquirer.js Documentation](https://www.npmjs.com/package/inquirer) - 
+* Learn more about how to use `inquirer` for collecting user input: [Inquirer.js Documentation](https://www.npmjs.com/package/inquirer)
 
 * Learn more about how to use the `fs` module for working with the file system: [Node.js fs Documentation](https://nodejs.org/dist/latest-v16.x/docs/api/fs.html)
