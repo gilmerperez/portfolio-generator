@@ -1,29 +1,28 @@
-# Module 07 Mini-Project: Portfolio Generator
+# Portfolio Generator
 
-In this activity, you will build a command-line tool that generates an HTML portfolio page from user input.
+The Portfolio Generator is a command-line tool designed to help users create a personalized HTML portfolio page based on their input. The app prompts the user for essential details like name, location, bio, LinkedIn, and GitHub URLs, and then generates an HTML document with the provided information.
 
 ## Instructions
 
-* Your application should prompt the user for information like their name, location, bio, LinkedIn URL, and GitHub URL. Feel free to add any additional prompts you think of.
+* The application will prompt the user for information like their name, location, bio, LinkedIn URL, and GitHub URL.
 
-* An HTML document containing the information collected from the prompts should be constructed and written to the file system. Make sure to add some CSS styling to the document.
+* An HTML document containing the information collected from the prompts will be be constructed and written to the file system.
 
-* You’ll need the following tools and technologies to accomplish this:
+## Key Features
 
-  * `fs` for writing to the file system
+* Prompts users for personal and professional information.
 
-  * `inquirer` for collecting user input
+* Dynamically generates an HTML portfolio page using string template literals.
 
-  * String template literals for generating a string version of the HTML document before it is written to the file system
+* Saves the HTML file to the file system.
 
-## 💡 Hints
+## Technologies Used
 
-It might be a good idea to start building out the HTML skeleton in a real HTML file. Once you're happy with the HTML file's appearance in the browser, you can copy and paste its contents into a string template literal. Then you can write a function to insert the user input into the appropriate places in the HTML string before writing it to the file system.
+This appliation needs the following tools and technologies to operate:
 
-## 🏆 Bonus
+* `fs` for writing to the file system
 
-* Instead of using callback functions, what are some other tools in JavaScript we can use to handle asynchronous functionality?
+* `inquirer` for collecting user input
 
----
+* String template literals for generating a string version of the HTML document before it is written to the file system
 
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
