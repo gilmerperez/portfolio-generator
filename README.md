@@ -4,11 +4,19 @@
 
 The Portfolio Generator is a command-line tool designed to help users create a personalized HTML portfolio page based on their input. The app prompts the user for essential details like name, location, bio, LinkedIn, and GitHub URLs, and then generates an HTML document with the provided information.
 
+## Usage
+
+The application is invoked by using the following command:
+
+```bash
+node index.js
+```
+
 ## Instructions
 
-* The application will prompt the user for information like their name, location, bio, LinkedIn URL, and GitHub URL.
+1. The application will prompt the user for information like their name, location, bio, LinkedIn URL, and GitHub URL.
 
-* An HTML document containing the information collected from the prompts will be constructed and written to the file system.
+2. An HTML document containing the information collected from the prompts will be constructed and written to the file system.
 
 ## Key Features
 
@@ -30,6 +38,6 @@ This application needs the following tools and technologies to operate:
 
 ## Additional Resources
 
-* Learn more about how to use `inquirer` for collecting user input: [Inquirer.js Documentation](https://www.npmjs.com/package/inquirer)
+* Learn more about how to use the `fs` module for working with the file system: [fs Documentation](https://nodejs.org/dist/latest-v16.x/docs/api/fs.html)
 
-* Learn more about how to use the `fs` module for working with the file system: [Node.js fs Documentation](https://nodejs.org/dist/latest-v16.x/docs/api/fs.html)
+* Learn more about how to use `inquirer` for collecting user input: [inquirer.Documentation](https://www.npmjs.com/package/inquirer)
